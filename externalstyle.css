@@ -1,0 +1,25 @@
+body {
+  padding: 30px 50px;
+  font-size: 16pt;
+}
+.demo {
+  max-width: 600px;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 3px 0;
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+}
+input:disabled,
+input:read-only{
+  opacity: 0.5;
+}
+.ok {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/15649/ok.png);
+}
+.alert {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/15649/alert.png);
+}
